@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!-- android:scaleType="centerCrop"com.swater.meimeng.mutils.remoteview.RemoteImageView -->
+
+        <ImageView
+            android:id="@+id/recom_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/female_default"
+            android:tag="1" />
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@null" >
+
+            <TextView
+                android:id="@+id/recom_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/halftrans_black"
+                android:minHeight="40dp"
+                android:padding="15dp"
+                android:text="你愿意？"
+                android:textColor="@color/white"
+                android:textSize="14sp" >
+            </TextView>
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

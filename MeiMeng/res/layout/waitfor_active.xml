@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fresh_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tab"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wait_bg" />
+
+        <RelativeLayout
+            android:id="@+id/msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_above="@id/tab"
+            android:background="@null" >
+
+            <TextView
+                android:id="@+id/recom_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/halftrans_black"
+                android:minHeight="40dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="80dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="账号激活后，可查看详细资料"
+                android:textColor="@color/white"
+                android:textSize="14sp" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/recom_header"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wait_round"
+                android:tag="2" >
+            </ImageView>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/tab"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:clickable="false" >
+
+            <RadioGroup
+                android:id="@+id/main_radiogroup"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/blank"
+                android:clickable="false"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_search"
+                    style="@style/tab_item_background"
+                    android:layout_weight="1.0"
+                    android:clickable="false"
+                    android:drawableTop="@drawable/icon_tab1"
+                    android:text="@string/s_search" />
+
+                <RadioButton
+                    android:id="@+id/rb_doing"
+                    style="@style/tab_item_background"
+                    android:layout_weight="1.0"
+                    android:clickable="false"
+                    android:drawableTop="@drawable/icon_tab2"
+                    android:text="@string/s_doing" />
+
+                <RadioButton
+                    android:id="@+id/rb_recommend"
+                    style="@style/tab_item_background"
+                    android:layout_weight="1.0"
+                    android:clickable="false"
+                    android:drawableTop="@drawable/icon_tab3_p"
+                    android:paddingTop="8dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_message"
+                    style="@style/tab_item_background"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:clickable="false"
+                    android:drawableTop="@drawable/icon_tab4"
+                    android:text="@string/s_message" />
+
+                <RadioButton
+                    android:id="@+id/rb_vip"
+                    style="@style/tab_item_background"
+                    android:layout_weight="1.0"
+                    android:clickable="false"
+                    android:drawableTop="@drawable/icon_tab5"
+                    android:text="@string/s_vip" />
+            </RadioGroup>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

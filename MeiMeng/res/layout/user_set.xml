@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/common_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <include layout="@layout/common_title"/>
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:id="@+id/top_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:id="@+id/ly_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible">
+
+                <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                    <FrameLayout
+                            android:id="@+id/fl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginBottom="10dip"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginTop="10dip">
+
+                        <com.swater.meimeng.mutils.remoteview.RemoteImageView
+                                android:id="@+id/user_head"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/default_head">
+                        </com.swater.meimeng.mutils.remoteview.RemoteImageView>
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|right"
+                                android:layout_marginBottom="15dp"
+                                android:layout_marginRight="15dp"
+                                android:src="@drawable/xz_">
+                        </ImageView>
+                    </FrameLayout>
+
+                    <TextView
+                            android:id="@+id/aa11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dip"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="相册管理"
+                            android:visibility="gone"/>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dip"
+                            android:background="@null">
+
+                        <RelativeLayout
+                                android:id="@+id/user_set_sound_monolog"
+                                android:layout_width="wrap_content"
+                                android:layout_height="32dp">
+
+                            <ImageView
+                                    android:id="@+id/redbtn"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:layout_centerVertical="true"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/sound_record"
+                                    android:visibility="gone"
+                                    >
+                            </ImageView>
+
+                            <Button
+                                    android:id="@+id/btn_voice_self_record"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="32dp"
+                                    android:layout_toRightOf="@+id/redbtn"
+                                    android:background="@null"
+                                    android:text="语音独白"
+                                    android:textColor="@color/gray_81"
+                                    android:visibility="gone"
+                                    >
+                            </Button>
+                            <Button
+                                    android:id="@+id/user_set_monolog_button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="32dp"
+                                    android:drawableLeft="@drawable/sound_record"
+                                    android:textColor="@color/gray_81"
+                                    android:text=" 语音独白"
+                                    android:background="#00000000"
+                                    />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                                android:id="@+id/right_voice_linear"
+                                android:layout_width="wrap_content"
+                                android:layout_height="32dp"
+                                android:layout_marginLeft="10dp"
+                                android:visibility="visible">
+
+                            <com.swater.meimeng.mutils.sound.sundButton.SoundButton
+                                    android:id="@+id/voice_play_btn"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@null"
+                                    android:text=""
+                                    android:textColor="@color/blank"/>
+
+                            <ImageView
+                                    android:id="@+id/right_anim"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@anim/voice_gray_play_left"/>
+
+                            <ImageView
+                                    android:id="@+id/cleananim"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/sound_gray_3"
+                                    android:visibility="gone"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="32dp"
+                                    android:layout_toRightOf="@id/voice_play_btn"
+                                    android:gravity="center_vertical"
+                                    android:text="试听"
+                                    android:textColor="@color/gray_81"
+                                    android:textSize="14sp"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_1"
+                    android:layout_marginTop="18dip"
+                    android:visibility="visible">
+
+                <RelativeLayout
+                        android:id="@+id/br_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gold"
+                        android:padding="10dp">
+
+                    <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="内心独白"
+                            android:textColor="@color/white"
+                            android:textSize="16sp">
+                    </TextView>
+
+                    <Button
+                            android:id="@+id/btn_md_heart_word"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/btn_edit"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="">
+                    </Button>
+                </RelativeLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/br_1"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                    <TextView
+                            android:id="@+id/txt_heart_self"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:maxLines="25"
+                            android:minLines="3"
+                            android:text="我在美盟，你在哪儿？"
+                            android:textColor="@color/gray_81"
+                            android:textSize="14sp">
+                    </TextView>
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- baseinfo -->
+
+            <RelativeLayout
+                    android:id="@+id/br_8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_2"
+                    android:background="@color/gold"
+                    android:padding="10dp">
+
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="基本信息"
+                        android:textColor="@color/white"
+                        android:textSize="16sp">
+                </TextView>
+
+                <Button
+                        android:id="@+id/user_base_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_edit"
+                        android:text="">
+                </Button>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/br_8"
+                    android:background="@color/white"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <ListView
+                            android:id="@+id/set_ls_baseinfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="320dp"
+                            android:background="@null"
+                            android:cacheColorHint="@color/transparent"
+                            android:divider="@null"
+                            android:fadingEdge="none"
+                            android:fadingEdgeLength="0dip">
+                    </ListView>
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 详细信息 -->
+
+            <RelativeLayout
+                    android:id="@+id/br_a_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_3"
+                    android:background="@color/gold"
+                    android:padding="10dp">
+
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="详细信息"
+                        android:textColor="@color/white"
+                        android:textSize="16sp">
+                </TextView>
+
+                <Button
+                        android:id="@+id/user_edit_detail_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_edit"
+                        android:text="">
+                </Button>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/br_a_1"
+                    android:background="@color/white"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <com.swater.meimeng.mutils.mygrid.MyListView
+                            android:id="@+id/set_ls_detailinfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:divider="@null"
+                            android:fadingEdge="none"
+                            android:fadingEdgeLength="0dip">
+                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 外貌体型 -->
+
+            <RelativeLayout
+                    android:id="@+id/br_a_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_4"
+                    android:background="@color/gold"
+                    android:padding="10dp">
+
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="外貌体型"
+                        android:textColor="@color/white"
+                        android:textSize="16sp">
+                </TextView>
+
+                <Button
+                        android:id="@+id/user_edit_body_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_edit"
+                        android:text="">
+                </Button>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/br_a_2"
+                    android:background="@color/white"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <ListView
+                            android:id="@+id/set_ls_appearance_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="320dp"
+                            android:background="@null"
+                            android:divider="@null"
+                            android:fadingEdge="none"
+                            android:fadingEdgeLength="0dip">
+                    </ListView>
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 工作信息 -->
+
+            <RelativeLayout
+                    android:id="@+id/br_a_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_5"
+                    android:background="@color/gold"
+                    android:padding="10dp">
+
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="工作学习"
+                        android:textColor="@color/white"
+                        android:textSize="16sp">
+                </TextView>
+
+                <Button
+                        android:id="@+id/user_edit_work_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_edit"
+                        android:text="">
+                </Button>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/br_a_3"
+                    android:background="@color/white"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <ListView
+                            android:id="@+id/set_ls_work_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="280dip"
+                            android:background="@null"
+                            android:divider="@null"
+                            android:fadingEdge="none"
+                            android:fadingEdgeLength="0dip">
+                    </ListView>
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 生活信息 -->
+
+            <RelativeLayout
+                    android:id="@+id/br_a_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_6"
+                    android:background="@color/gold"
+                    android:padding="10dp">
+
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="生活信息"
+                        android:textColor="@color/white"
+                        android:textSize="16sp">
+                </TextView>
+
+                <Button
+                        android:id="@+id/user_life_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_edit"
+                        android:text="">
+                </Button>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/br_a_4"
+                    android:background="@color/white"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <ListView
+                            android:id="@+id/set_ls_life_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="520dp"
+                            android:background="@null"
+                            android:divider="@null"
+                            android:fadingEdge="none"
+                            android:fadingEdgeLength="0dip">
+                    </ListView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/br_a_7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_7"
+                    android:background="@color/gold"
+                    android:padding="10dp">
+
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="个人爱好"
+                        android:textColor="@color/white"
+                        android:textSize="16sp">
+                </TextView>
+
+                <Button
+                        android:id="@+id/edit_hobby_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_edit"
+                        android:text="">
+                </Button>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/br_a_7"
+                    android:background="@color/white"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:id="@+id/lay_1_cell_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    <com.swater.meimeng.mutils.mygrid.MyListView
+                            android:id="@+id/ls_hobby"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:divider="@null"
+                            android:dividerHeight="0dip"
+                            android:minHeight="200dip">
+                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/ly_9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ly_8"
+                    android:background="@color/white"
+                    android:visibility="visible">
+
+                <LinearLayout
+                        android:id="@+id/lay_1_cell_122"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                    <com.swater.meimeng.mutils.mygrid.MyListView
+                            android:id="@+id/ls_person"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dip"
+                            android:layout_marginRight="0dip"
+                            android:divider="@null"
+                            android:dividerHeight="0dip"
+                            android:listSelector="@color/transparent">
+                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

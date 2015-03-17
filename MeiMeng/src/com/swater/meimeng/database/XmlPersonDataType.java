@@ -1,0 +1,61 @@
+package com.swater.meimeng.database;
+
+public interface XmlPersonDataType {
+
+	String Person_Type_age = "age";
+	String Person_Type_xingzuo = "xingzuo";
+	String Person_Type_shengxiao = "shengxiao";
+	String Person_Type_nationality = "nationality_id";
+	String Person_Type_overseas_experience = "overseas_experience";
+	String Person_Type_profession = "profession";
+	String Person_Type_family = "family";
+	String Person_Type_live = "live";
+	String Person_Type_car = "car";
+	String Person_Type_salary= "salary";
+	String Person_Type_assets_level = "assets_level";
+	String Person_Type_child = "child";
+	String Person_Type_marrage = "marriage";
+	String Person_Type_degree = "degree";
+	String Person_Type_amateur_like = "amateur_like";
+	String Person_Type_drinking = "drinking";
+//	String Person_Type_profession  = "profession";
+	String Person_Type_company_type = "company_type";
+	String Person_Type_blood_type = "blood_type";
+	String Person_Type_religion = "religion";
+	String Person_Type_height = "height";
+	String Person_Type_face_description_man = "face_description_man";
+	String Person_Type_haircolor = "haircolor";
+	String Person_Type_income = "income";
+	String Person_Type_like_food = "like_food";
+	String Person_Type_face_description_wom = "face_description_wom";
+	String Person_Type_like_book = "like_book";
+	String Person_Type_graduation_time = "graduation_time";
+	String Person_Type_pet_type = "pet_type";
+	String Person_Type_company_trade = "company_trade";
+	String Person_Type_body_type = "body_type";
+	String Person_Type_eye_color = "eye_color";
+	String Person_Type_smoke = "smoke";
+	String Person_Type_good_position = "good_position";
+	String Person_Type_entertainment = "entertainment";
+	String Person_Type_take_exercise = "take_exercise";
+	String Person_Type_like_music = "like_music";
+	String Person_Type_work_status = "work_status";
+	String Person_Type_with_parents = "with_parents";
+	String Person_Type_schedule = "schedule";
+	String Person_Type_largest_consumer = "largest_consumer";
+	String Person_Type_ehtnic = "ehtnic";
+	String Person_Type_attentionitem = "attentionitem";
+	String Person_Type_life_skill = "life_skill";
+	String Person_Type_make_romantic = "make_romantic";
+	String Person_Type_want_children = "want_children";
+	String Person_Type_family_ranking = "family_ranking";
+	String Person_Type_hairstyle = "hairstyle";
+	String Person_Type_language = "language";
+	String Person_Type_like_movie = "like_movie";
+	String Person_Type_like_sports = "like_sports";
+	String Person_Type_face_type = "face_type";
+	String Person_Type_travel = "travel";
+	String Person_face_descp_man = "face_description_man";
+	String Person_face_descp_woman = "face_description_wom";
+
+}

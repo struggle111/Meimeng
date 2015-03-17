@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blank">#FF000000</color>
+    <color name="red">#FFCE0000</color>
+    <color name="yellow_light">#FFFFFFCC</color>
+    <color name="gray_light">#FFE1E3E6</color>
+    <color name="gray_e">#FFF7F7F7</color>
+    <color name="gray_deep">#FF515567</color>
+    <color name="blue">#FF167dcb</color>
+    <color name="blue_light">#FF79d8fc</color>
+    <color name="level_h">#FFd6000f</color>
+    <color name="level_m">#FF00599d</color>
+    <color name="level_l">#FF85aaff</color>
+    <color name="set_grey_color">#686868</color>
+    <color name="set_deep_color">#e1dbd4</color>
+    <color name="gray_38">#383838</color>
+    <color name="gray_58">#FF585858</color>
+    <color name="gray_68">#FF686868</color>
+    <color name="gray_14">#FF141414</color>
+    <color name="gray_c">#FF686868</color>
+    <color name="gray_c1">#FFCCCCCC</color>
+    <color name="textShadow">#666666</color>
+    <color name="recommend_detail_color">#414141</color>
+    <color name="party_private_text">#959595</color>
+    <color name="party_private_title">#b01401</color>
+    <color name="selected_color">#d3ccc4</color>
+    <color name="red_vip">#FF9f1e11</color> 
+    <color name="gray_75">#FF959595</color>
+    <color name="gray_23">#FF232323</color> 
+    <color name="reg_notice">#89847e</color> 
+    <color name="cell_vip_grey">#333333</color>    
+    
+    <color name="gold">#BF9F62</color>
+    <color name="gold_p">#997123</color>
+    <color name="gray_81">#818181</color>
+    <color name="gray_item">#f2f3f5</color>
+    <color name="gray_item_deep">#e3e3e3</color>
+    <color name="gray_divider">#c2c2c2</color>
+    <color name="gray_bg">#f3f1ed</color>
+    <color name="tab_normal">#FF818181</color>
+    <color name="halftrans_black">#99000000</color>
+    <color name="trans_black_90">#E5000000</color>
+
+</resources>

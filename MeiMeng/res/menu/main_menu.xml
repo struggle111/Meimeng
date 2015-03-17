@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/clear"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Clear Cache"/>
+    <item
+            android:id="@+id/trim"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Trim Cache"/>
+    <item
+            android:id="@+id/grid"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Grid"/>
+
+</menu>

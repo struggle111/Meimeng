@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@null" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:gravity="left|center_vertical"
+                android:text="由于您使用的版本过低！需要进行强制更新！"
+                android:textColor="@color/gray_23"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ver"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#39456b"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/n1"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:gravity="center"
+                android:text="方式一：点击下面"
+                android:textColor="@color/gray_23"
+                android:textSize="17sp"
+                android:visibility="gone" >
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_donwload"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n1"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/selector_btn_gold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="下载最新版"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

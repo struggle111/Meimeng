@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_2"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:id="@+id/ly_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:id="@+id/edit_lay_blood"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="血型"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/edit_blood_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/edit_lay_ethnic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_lay_blood"
+                android:background="@color/gray_item"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="民族"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/edit_ethinc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_lay_ethnic"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="国籍"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_guoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lay_1_cell_1"
+                android:background="@color/gray_item"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="海外经历"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_oversea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_1_cell_2"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="职业"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_prof"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_2_cell_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_1_cell_3"
+                android:background="@color/gray_item"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="生肖"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_shengxiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_3_cell_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_2_cell_3"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="星座"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_xingzuo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_3_cell_3"
+                android:background="@color/gray_item"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="家庭背景"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_fami_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_1_cell_4"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:id="@+id/cell_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="居住状况"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_live"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/cell_left"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|right"
+                    android:maxLines="3"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_1_cell_5"
+                android:background="@color/gray_item"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="购车状况"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_1_cell_6"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="月薪"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_salary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_1_cell_8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_1_cell_7"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:gravity="center"
+                    android:text="资产"
+                    android:textColor="@color/gray_38"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/c_d_asset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" >
+                </TextView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

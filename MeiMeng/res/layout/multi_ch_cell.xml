@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <CheckBox
+            android:id="@+id/cell_right"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/check_box_style"
+            android:button="@null"
+            android:checked="false"
+            android:text=""
+            android:visibility="visible" >
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/cell_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/cell_right"
+            android:gravity="center_vertical"
+            android:minLines="1"
+            android:text="数据绑定" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

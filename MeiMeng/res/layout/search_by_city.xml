@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_action"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索"
+        android:background="@drawable/selector_btn_gold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

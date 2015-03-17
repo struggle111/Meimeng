@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pull_to_refresh_pull_label">向下拉刷新&#8230;</string>
+    <string name="pull_to_refresh_release_label">松开刷新&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...&#8230;</string>
+    <string name="pull_to_refresh_tap_label">点击刷新&#8230;</string>
+    
+    <string name="pull_to_refresh_pull_label_total_against">向下拉加载以前的数据&#8230;</string>
+    <string name="pull_to_refresh_release_label_total_against">松开加载数据&#8230;</string>
+    
+</resources>

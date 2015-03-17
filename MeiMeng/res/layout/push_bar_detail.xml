@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/common_bg"
+                android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <include layout="@layout/common_title_recom_detail"/>
+    </LinearLayout>
+
+    <com.swater.meimeng.fragment.recommend.myviews.pushscrollview
+            android:id="@+id/container_scrol"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/top">
+
+        <RelativeLayout
+                android:id="@+id/topscroll"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <RelativeLayout
+                    android:id="@+id/layer_one"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                <RelativeLayout
+                        android:id="@+id/ref_ly"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@null">
+
+                    <android.support.v4.view.ViewPager
+                            android:id="@+id/viewpager"
+                            android:layout_width="fill_parent"
+                            android:layout_height="570dip"
+                            android:visibility="visible"/>
+
+                    <LinearLayout
+                            android:id="@+id/lay_isopen"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                        <TextView
+                                android:id="@+id/txtpro"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right|top"
+                                android:background="@color/halftrans_black"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="加载相册"
+                                android:textColor="@color/white"
+                                android:textSize="16sp">
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:id="@+id/lay_lock"
+                            android:layout_width="fill_parent"
+                            android:layout_height="444dp"
+                            android:background="@color/halftrans_black"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                        <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="100dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/lock"/>
+
+                        <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="相册已上锁，点击申请查看"
+                                android:textColor="@color/white"
+                                android:textSize="14sp">
+                        </TextView>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/medal_all_lay_par"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="60dp"
+                        android:visibility="gone">
+
+                    <!-- 一般勋章 -->
+
+                    <LinearLayout
+                            android:id="@+id/medal_lay_gp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="5dip">
+
+                        <ImageView
+                                android:id="@+id/medal_1"
+                                android:layout_width="40dip"
+                                android:layout_height="40dip"
+                                android:src="@drawable/a2"
+                                android:visibility="gone">
+                        </ImageView>
+
+                        <ImageView
+                                android:id="@+id/medal_2"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/a2"
+                                android:visibility="gone">
+                        </ImageView>
+
+                        <ImageView
+                                android:id="@+id/medal_3"
+                                android:layout_width="40dip"
+                                android:layout_height="40dip"
+                                android:src="@drawable/a3"
+                                android:visibility="gone">
+                        </ImageView>
+
+                        <ImageView
+                                android:id="@+id/medal_4"
+                                android:layout_width="40dip"
+                                android:layout_height="40dip"
+                                android:src="@drawable/a4"
+                                android:visibility="gone">
+                        </ImageView>
+
+                        <ImageView
+                                android:id="@+id/medal_5"
+                                android:layout_width="40dip"
+                                android:layout_height="40dip"
+                                android:src="@drawable/a5"
+                                android:visibility="gone">
+                        </ImageView>
+                    </LinearLayout>
+                    <!-- 认证勋章 -->
+
+                    <LinearLayout
+                            android:id="@+id/medal_lay_renzheng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dip">
+
+                        <ImageView
+                                android:id="@+id/medal_vip"
+                                android:layout_width="40dip"
+                                android:layout_height="40dip"
+                                android:src="@drawable/vip_black"
+                                android:visibility="gone">
+                        </ImageView>
+
+                        <ImageView
+                                android:id="@+id/medal_renzheng"
+                                android:layout_width="40dip"
+                                android:layout_height="40dip"
+                                android:src="@drawable/check_online"
+                                android:visibility="gone">
+                        </ImageView>
+                    </LinearLayout>
+                </RelativeLayout>
+                <!-- android:layout_alignParentBottom="true" -->
+
+                <RelativeLayout
+                        android:id="@+id/lay_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_alignParentBottom="false"
+                        android:visibility="visible"
+                        android:layout_marginTop="1000dp"
+                        >
+
+                    <LinearLayout
+                            android:id="@+id/rg1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="60dip"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/halftrans_black"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingLeft="80dp"
+                            android:paddingRight="10dp">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="年龄"
+                                android:textColor="@color/white">
+                        </TextView>
+
+                        <TextView
+                                android:id="@+id/age_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:gravity="center_vertical"
+                                android:text=""
+                                android:textColor="@color/white">
+                        </TextView>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="地区"
+                                android:textColor="@color/white">
+                        </TextView>
+
+                        <TextView
+                                android:id="@+id/area_value"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/white">
+                        </TextView>
+
+                        <FrameLayout
+                                android:id="@+id/voice_lay"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_gravity="right|center_vertical">
+
+                            <com.swater.meimeng.mutils.sound.sundButton.SoundButton
+                                    android:id="@+id/voice_play_btn"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@null"
+                                    android:text=""
+                                    android:textColor="@color/white"/>
+
+                            <ImageView
+                                    android:id="@+id/right_anim"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@anim/voice_play_left"/>
+
+                            <ImageView
+                                    android:id="@+id/cleananim"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/sound3"
+                                    android:visibility="gone"/>
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                            android:id="@+id/beauty_user"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/default_head">
+                    </ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/c_b"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="false"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="0dip"
+                        android:layout_marginTop="1000dp"
+                        >
+
+                    <RadioGroup
+                            android:id="@+id/main_radiogroup"
+                            android:layout_width="fill_parent"
+                            android:layout_height="70dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/blank"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingBottom="10dp"
+                            >
+
+                        <RadioButton
+                                android:id="@+id/bottom_btn1"
+                                style="@style/tab_item_background"
+                                android:layout_weight="1.0"
+                                android:drawableTop="@drawable/selector_detail"
+                                android:text="详细资料"/>
+
+                        <RadioButton
+                                android:id="@+id/bottom_btn2"
+                                style="@style/tab_item_background"
+                                android:layout_weight="1.0"
+                                android:drawableTop="@drawable/selector_detail_wh"
+                                android:text="问候"/>
+
+                        <RadioButton
+                                android:id="@+id/bottom_btn3"
+                                style="@style/tab_item_background"
+                                android:layout_weight="1.0"
+                                android:drawableTop="@drawable/selector_detail_wantsee"
+                                android:text="我想见TA"/>
+                    </RadioGroup>
+                </RelativeLayout>
+                <!-- 下面详情资料 -->
+
+                <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/c_b">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/common_bg"
+                            android:orientation="vertical">
+
+                        <RelativeLayout
+                                android:id="@+id/top_container"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="visible">
+
+                                <RelativeLayout
+                                        android:id="@+id/br_1"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@color/gold"
+                                        android:padding="10dp">
+
+                                    <TextView
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentLeft="true"
+                                            android:layout_centerVertical="true"
+                                            android:text="内心独白"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp">
+                                    </TextView>
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/br_1"
+                                        android:background="@color/white"
+                                        android:padding="10dp">
+
+                                    <TextView
+                                            android:id="@+id/txt_heart_self"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:maxLines="25"
+                                            android:text="说说心理话"
+                                            android:textColor="@color/gray_81"
+                                            android:textSize="14sp">
+                                    </TextView>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <!-- baseinfo -->
+
+                            <RelativeLayout
+                                    android:id="@+id/br_8"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ly_2"
+                                    android:background="@color/gold"
+                                    android:padding="10dp">
+
+                                <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="基本信息"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp">
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/br_8"
+                                    android:background="@color/white"
+                                    android:visibility="visible">
+
+                                <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                    <!-- 370dip -->
+
+                                    <com.swater.meimeng.mutils.mygrid.MyListView
+                                            android:id="@+id/set_ls_baseinfo"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:cacheColorHint="@color/transparent"
+                                            android:divider="@null"
+                                            android:fadingEdge="none"
+                                            android:fadingEdgeLength="0dip">
+                                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <!-- 详细信息 -->
+
+                            <RelativeLayout
+                                    android:id="@+id/br_a_1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ly_3"
+                                    android:background="@color/gold"
+                                    android:padding="10dp">
+
+                                <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="详细信息"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp">
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_4"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/br_a_1"
+                                    android:background="@color/white"
+                                    android:visibility="visible">
+
+                                <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                    <com.swater.meimeng.mutils.mygrid.MyListView
+                                            android:id="@+id/set_ls_detailinfo"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:cacheColorHint="@color/transparent"
+                                            android:divider="@null"
+                                            android:fadingEdge="none"
+                                            android:fadingEdgeLength="0dip">
+                                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <!-- 外貌体型 -->
+
+                            <RelativeLayout
+                                    android:id="@+id/br_a_2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ly_4"
+                                    android:background="@color/gold"
+                                    android:padding="10dp">
+
+                                <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="外貌体型"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp">
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_5"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/br_a_2"
+                                    android:background="@color/white"
+                                    android:visibility="visible">
+
+                                <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                    <!-- 380dip -->
+
+                                    <com.swater.meimeng.mutils.mygrid.MyListView
+                                            android:id="@+id/set_ls_appearance_info"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:cacheColorHint="@color/transparent"
+                                            android:divider="@null"
+                                            android:fadingEdge="none"
+                                            android:fadingEdgeLength="0dip">
+                                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <!-- 工作信息 -->
+
+                            <RelativeLayout
+                                    android:id="@+id/br_a_3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ly_5"
+                                    android:background="@color/gold"
+                                    android:padding="10dp">
+
+                                <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="工作学习"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp">
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_6"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/br_a_3"
+                                    android:background="@color/white"
+                                    android:visibility="visible">
+
+                                <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                    <!-- 320dip -->
+
+                                    <com.swater.meimeng.mutils.mygrid.MyListView
+                                            android:id="@+id/set_ls_work_info"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:cacheColorHint="@color/transparent"
+                                            android:divider="@null"
+                                            android:fadingEdge="none"
+                                            android:fadingEdgeLength="0dip">
+                                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                                </LinearLayout>
+                            </RelativeLayout>
+                            <!-- 生活信息 -->
+
+                            <RelativeLayout
+                                    android:id="@+id/br_a_4"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ly_6"
+                                    android:background="@color/gold"
+                                    android:padding="10dp">
+
+                                <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="生活信息"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp">
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_7"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/br_a_4"
+                                    android:background="@color/white"
+                                    android:visibility="visible">
+
+                                <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                    <com.swater.meimeng.mutils.mygrid.MyListView
+                                            android:id="@+id/set_ls_life_info"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:cacheColorHint="@color/transparent"
+                                            android:divider="@null"
+                                            android:fadingEdge="none"
+                                            android:fadingEdgeLength="0dip">
+                                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/br_a_7"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ly_7"
+                                    android:background="@color/gold"
+                                    android:padding="10dp">
+
+                                <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="个人爱好"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp">
+                                </TextView>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_8"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/br_a_7"
+                                    android:background="@color/white"
+                                    android:visibility="visible">
+
+                                <LinearLayout
+                                        android:id="@+id/lay_1_cell_1"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content">
+
+                                    <com.swater.meimeng.mutils.mygrid.MyListView
+                                            android:id="@+id/ls_hobby"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@null"
+                                            android:cacheColorHint="@color/transparent"
+                                            android:divider="@null"
+                                            android:dividerHeight="0dip">
+                                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                    android:id="@+id/ly_9"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/ly_8"
+                                    android:background="@color/gold">
+                                <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@id/br_8"
+                                        android:background="@null">
+
+                                    <com.swater.meimeng.mutils.mygrid.MyListView
+                                            android:id="@+id/ls_person"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:cacheColorHint="@color/transparent"
+                                            android:divider="@null"
+                                            android:dividerHeight="0dip"
+                                            android:listSelector="@color/transparent">
+                                    </com.swater.meimeng.mutils.mygrid.MyListView>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                        <!-- </ScrollView> -->
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.swater.meimeng.fragment.recommend.myviews.pushscrollview>
+    <!-- 悬浮控件 -->
+
+    <FrameLayout
+            android:id="@+id/viewOutScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+             >
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dip"
+                android:orientation="horizontal">
+
+            <RelativeLayout
+                    android:id="@+id/top_ali"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible">
+
+                <include layout="@layout/common_title_recom_detail"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/top_ali">
+
+                <RadioGroup
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/blank"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                    <RadioButton
+                            android:id="@+id/out_bottom_btn1"
+                            style="@style/tab_item_background"
+                            android:layout_weight="1.0"
+                            android:drawableTop="@drawable/selector_detail"
+                            android:text="详细资料"
+                            />
+
+                    <RadioButton
+                            android:id="@+id/out_bottom_btn2"
+                            style="@style/tab_item_background"
+                            android:layout_weight="1.0"
+                            android:drawableTop="@drawable/selector_detail_wh"
+                            android:text="问候"/>
+
+                    <RadioButton
+                            android:id="@+id/out_bottom_btn3"
+                            style="@style/tab_item_background"
+                            android:layout_weight="1.0"
+                            android:drawableTop="@drawable/selector_detail_wantsee"
+                            android:text="我想见TA"/>
+                </RadioGroup>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

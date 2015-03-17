@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/a11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/a11"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <FrameLayout
+                android:id="@+id/top1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <com.swater.meimeng.mutils.remoteview.RemoteImageView
+                        android:id="@+id/act_img"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/loading_top" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/trans_black_90"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="80dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/user_nickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="发起人："
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/party_detail_count"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="已有人报名"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <com.swater.meimeng.mutils.remoteview.RemoteImageView
+                    android:id="@+id/user_photo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="left|bottom"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_head" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/top3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/top1"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="约会描述："
+                        android:textColor="@color/gray_38"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/p_act_intro"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/party_private_text"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/l1"
+                    android:layout_marginTop="10dip" >
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="约会时间："
+                        android:textColor="@color/gray_38"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/p_act_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/party_private_text"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/l2"
+                    android:layout_marginTop="10dip" >
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="约会地点："
+                        android:textColor="@color/gray_38"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/p_act_place"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/party_private_text"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/l5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/l3"
+                    android:layout_marginTop="10dip" >
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="约会备注："
+                        android:textColor="@color/gray_38"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/p_act_recommend"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/party_private_text"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+            android:id="@+id/private_act_detail_join_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="我 要 参 与"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:background="@color/gold_p"
+            />
+
+</RelativeLayout>

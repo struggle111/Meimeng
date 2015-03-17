@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/lay9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+
+        <TextView
+            android:id="@+id/cell_right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:maxLines="10"
+            android:text="你啦啦啦啦啦拉了拉你啦啦啦啦啦拉了"
+            android:textColor="@color/gray_81"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blank_cell_hiden"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:layout_below="@+id/cell_right"
+        android:background="@null"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <data_meimeng> -->
+
+<data type="data_city" >
+
+    <city_id
+        city_name="北京"
+        key="101"
+        pid="1" />
+
+    <city_id
+        city_name="上海"
+        key="201"
+        pid="2" />
+
+    <city_id
+        city_name="天津"
+        key="301"
+        pid="3" />
+
+    <city_id
+        city_name="重庆"
+        key="401"
+        pid="4" />
+
+    <city_id
+        city_name="哈尔滨"
+        key="501"
+        pid="5" />
+
+    <city_id
+        city_name="齐齐哈尔"
+        key="502"
+        pid="5" />
+
+    <city_id
+        city_name="牡丹江"
+        key="503"
+        pid="5" />
+
+    <city_id
+        city_name="佳木斯"
+        key="504"
+        pid="5" />
+
+    <city_id
+        city_name="绥化"
+        key="505"
+        pid="5" />
+
+    <city_id
+        city_name="黑河"
+        key="506"
+        pid="5" />
+
+    <city_id
+        city_name="大兴安岭"
+        key="507"
+        pid="5" />
+
+    <city_id
+        city_name="伊春"
+        key="508"
+        pid="5" />
+
+    <city_id
+        city_name="大庆"
+        key="509"
+        pid="5" />
+
+    <city_id
+        city_name="七台河"
+        key="510"
+        pid="5" />
+
+    <city_id
+        city_name="鸡西"
+        key="511"
+        pid="5" />
+
+    <city_id
+        city_name="鹤岗"
+        key="512"
+        pid="5" />
+
+    <city_id
+        city_name="双鸭山"
+        key="513"
+        pid="5" />
+
+    <city_id
+        city_name="长春"
+        key="601"
+        pid="6" />
+
+    <city_id
+        city_name="吉林"
+        key="602"
+        pid="6" />
+
+    <city_id
+        city_name="延边"
+        key="603"
+        pid="6" />
+
+    <city_id
+        city_name="四平"
+        key="604"
+        pid="6" />
+
+    <city_id
+        city_name="通化"
+        key="605"
+        pid="6" />
+
+    <city_id
+        city_name="白城"
+        key="606"
+        pid="6" />
+
+    <city_id
+        city_name="辽源"
+        key="607"
+        pid="6" />
+
+    <city_id
+        city_name="松原"
+        key="608"
+        pid="6" />
+
+    <city_id
+        city_name="白山"
+        key="609"
+        pid="6" />
+
+    <city_id
+        city_name="沈阳"
+        key="701"
+        pid="7" />
+
+    <city_id
+        city_name="大连"
+        key="702"
+        pid="7" />
+
+    <city_id
+        city_name="鞍山"
+        key="703"
+        pid="7" />
+
+    <city_id
+        city_name="抚顺"
+        key="704"
+        pid="7" />
+
+    <city_id
+        city_name="本溪"
+        key="705"
+        pid="7" />
+
+    <city_id
+        city_name="丹东"
+        key="706"
+        pid="7" />
+
+    <city_id
+        city_name="锦州"
+        key="707"
+        pid="7" />
+
+    <city_id
+        city_name="营口"
+        key="708"
+        pid="7" />
+
+    <city_id
+        city_name="阜新"
+        key="709"
+        pid="7" />
+
+    <city_id
+        city_name="辽阳"
+        key="710"
+        pid="7" />
+
+    <city_id
+        city_name="铁岭"
+        key="711"
+        pid="7" />
+
+    <city_id
+        city_name="朝阳"
+        key="712"
+        pid="7" />
+
+    <city_id
+        city_name="盘锦"
+        key="713"
+        pid="7" />
+
+    <city_id
+        city_name="葫芦岛"
+        key="714"
+        pid="7" />
+
+    <city_id
+        city_name="呼和浩特"
+        key="801"
+        pid="8" />
+
+    <city_id
+        city_name="包头"
+        key="802"
+        pid="8" />
+
+    <city_id
+        city_name="乌海"
+        key="803"
+        pid="8" />
+
+    <city_id
+        city_name="乌兰察布"
+        key="804"
+        pid="8" />
+
+    <city_id
+        city_name="乌兰察布"
+        key="805"
+        pid="8" />
+
+    <city_id
+        city_name="赤峰"
+        key="806"
+        pid="8" />
+
+    <city_id
+        city_name="鄂尔多斯"
+        key="807"
+        pid="8" />
+
+    <city_id
+        city_name="巴彦淖尔"
+        key="808"
+        pid="8" />
+
+    <city_id
+        city_name="锡林郭勒"
+        key="809"
+        pid="8" />
+
+    <city_id
+        city_name="呼伦贝尔"
+        key="810"
+        pid="8" />
+
+    <city_id
+        city_name="兴安盟"
+        key="811"
+        pid="8" />
+
+    <city_id
+        city_name="阿拉善盟"
+        key="812"
+        pid="8" />
+
+    <city_id
+        city_name="石家庄"
+        key="901"
+        pid="9" />
+
+    <city_id
+        city_name="保定"
+        key="902"
+        pid="9" />
+
+    <city_id
+        city_name="张家口"
+        key="903"
+        pid="9" />
+
+    <city_id
+        city_name="承德"
+        key="904"
+        pid="9" />
+
+    <city_id
+        city_name="唐山"
+        key="905"
+        pid="9" />
+
+    <city_id
+        city_name="廊坊"
+        key="906"
+        pid="9" />
+
+    <city_id
+        city_name="沧州"
+        key="907"
+        pid="9" />
+
+    <city_id
+        city_name="衡水"
+        key="908"
+        pid="9" />
+
+    <city_id
+        city_name="邢台"
+        key="909"
+        pid="9" />
+
+    <city_id
+        city_name="邯郸"
+        key="910"
+        pid="9" />
+
+    <city_id
+        city_name="秦皇岛"
+        key="911"
+        pid="9" />
+
+    <city_id
+        city_name="太原"
+        key="1001"
+        pid="10" />
+
+    <city_id
+        city_name="大同"
+        key="1002"
+        pid="10" />
+
+    <city_id
+        city_name="阳泉"
+        key="1003"
+        pid="10" />
+
+    <city_id
+        city_name="晋中"
+        key="1004"
+        pid="10" />
+
+    <city_id
+        city_name="长治"
+        key="1005"
+        pid="10" />
+
+    <city_id
+        city_name="晋城"
+        key="1006"
+        pid="10" />
+
+    <city_id
+        city_name="临汾"
+        key="1007"
+        pid="10" />
+
+    <city_id
+        city_name="运城"
+        key="1008"
+        pid="10" />
+
+    <city_id
+        city_name="朔州"
+        key="1009"
+        pid="10" />
+
+    <city_id
+        city_name="忻州"
+        key="1010"
+        pid="10" />
+
+    <city_id
+        city_name="吕梁"
+        key="1011"
+        pid="10" />
+
+    <city_id
+        city_name="西安"
+        key="1101"
+        pid="11" />
+
+    <city_id
+        city_name="咸阳"
+        key="1102"
+        pid="11" />
+
+    <city_id
+        city_name="延安"
+        key="1103"
+        pid="11" />
+
+    <city_id
+        city_name="榆林"
+        key="1104"
+        pid="11" />
+
+    <city_id
+        city_name="渭南"
+        key="1105"
+        pid="11" />
+
+    <city_id
+        city_name="商洛"
+        key="1106"
+        pid="11" />
+
+    <city_id
+        city_name="安康"
+        key="1107"
+        pid="11" />
+
+    <city_id
+        city_name="汉中"
+        key="1108"
+        pid="11" />
+
+    <city_id
+        city_name="宝鸡"
+        key="1109"
+        pid="11" />
+
+    <city_id
+        city_name="铜川"
+        key="1110"
+        pid="11" />
+
+    <city_id
+        city_name="杨凌"
+        key="1111"
+        pid="11" />
+
+    <city_id
+        city_name="济南"
+        key="1201"
+        pid="12" />
+
+    <city_id
+        city_name="青岛"
+        key="1202"
+        pid="12" />
+
+    <city_id
+        city_name="淄博"
+        key="1203"
+        pid="12" />
+
+    <city_id
+        city_name="德州"
+        key="1204"
+        pid="12" />
+
+    <city_id
+        city_name="烟台"
+        key="1205"
+        pid="12" />
+
+    <city_id
+        city_name="潍坊"
+        key="1206"
+        pid="12" />
+
+    <city_id
+        city_name="济宁"
+        key="1207"
+        pid="12" />
+
+    <city_id
+        city_name="泰安"
+        key="1208"
+        pid="12" />
+
+    <city_id
+        city_name="临沂"
+        key="1209"
+        pid="12" />
+
+    <city_id
+        city_name="菏泽"
+        key="1210"
+        pid="12" />
+
+    <city_id
+        city_name="滨州"
+        key="1211"
+        pid="12" />
+
+    <city_id
+        city_name="东营"
+        key="1212"
+        pid="12" />
+
+    <city_id
+        city_name="威海"
+        key="1213"
+        pid="12" />
+
+    <city_id
+        city_name="枣庄"
+        key="1214"
+        pid="12" />
+
+    <city_id
+        city_name="日照"
+        key="1215"
+        pid="12" />
+
+    <city_id
+        city_name="莱芜"
+        key="1216"
+        pid="12" />
+
+    <city_id
+        city_name="聊城"
+        key="1217"
+        pid="12" />
+
+    <city_id
+        city_name="乌鲁木齐"
+        key="1301"
+        pid="13" />
+
+    <city_id
+        city_name="克拉玛依"
+        key="1302"
+        pid="13" />
+
+    <city_id
+        city_name="石河子"
+        key="1303"
+        pid="13" />
+
+    <city_id
+        city_name="昌吉"
+        key="1304"
+        pid="13" />
+
+    <city_id
+        city_name="吐鲁番"
+        key="1305"
+        pid="13" />
+
+    <city_id
+        city_name="巴音郭楞"
+        key="1306"
+        pid="13" />
+
+    <city_id
+        city_name="阿拉尔"
+        key="1307"
+        pid="13" />
+
+    <city_id
+        city_name="阿克苏"
+        key="1308"
+        pid="13" />
+
+    <city_id
+        city_name="喀什"
+        key="1309"
+        pid="13" />
+
+    <city_id
+        city_name="伊犁"
+        key="1310"
+        pid="13" />
+
+    <city_id
+        city_name="塔城"
+        key="1311"
+        pid="13" />
+
+    <city_id
+        city_name="哈密"
+        key="1312"
+        pid="13" />
+
+    <city_id
+        city_name="和田"
+        key="1313"
+        pid="13" />
+
+    <city_id
+        city_name="阿勒泰"
+        key="1314"
+        pid="13" />
+
+    <city_id
+        city_name="克州"
+        key="1315"
+        pid="13" />
+
+    <city_id
+        city_name="博尔塔拉"
+        key="1316"
+        pid="13" />
+
+    <city_id
+        city_name="拉萨"
+        key="1401"
+        pid="14" />
+
+    <city_id
+        city_name="日喀则"
+        key="1402"
+        pid="14" />
+
+    <city_id
+        city_name="山南"
+        key="1403"
+        pid="14" />
+
+    <city_id
+        city_name="林芝"
+        key="1404"
+        pid="14" />
+
+    <city_id
+        city_name="昌都"
+        key="1405"
+        pid="14" />
+
+    <city_id
+        city_name="那曲"
+        key="1406"
+        pid="14" />
+
+    <city_id
+        city_name="阿里"
+        key="1407"
+        pid="14" />
+
+    <city_id
+        city_name="西宁"
+        key="1501"
+        pid="15" />
+
+    <city_id
+        city_name="海东"
+        key="1502"
+        pid="15" />
+
+    <city_id
+        city_name="黄南"
+        key="1503"
+        pid="15" />
+
+    <city_id
+        city_name="海南"
+        key="1504"
+        pid="15" />
+
+    <city_id
+        city_name="果洛"
+        key="1505"
+        pid="15" />
+
+    <city_id
+        city_name="玉树"
+        key="1506"
+        pid="15" />
+
+    <city_id
+        city_name="海西"
+        key="1507"
+        pid="15" />
+
+    <city_id
+        city_name="海北"
+        key="1508"
+        pid="15" />
+
+    <city_id
+        city_name="格尔木"
+        key="1509"
+        pid="15" />
+
+    <city_id
+        city_name="兰州"
+        key="1601"
+        pid="16" />
+
+    <city_id
+        city_name="定西"
+        key="1602"
+        pid="16" />
+
+    <city_id
+        city_name="平凉"
+        key="1603"
+        pid="16" />
+
+    <city_id
+        city_name="庆阳"
+        key="1604"
+        pid="16" />
+
+    <city_id
+        city_name="武威"
+        key="1605"
+        pid="16" />
+
+    <city_id
+        city_name="金昌"
+        key="1606"
+        pid="16" />
+
+    <city_id
+        city_name="张掖"
+        key="1607"
+        pid="16" />
+
+    <city_id
+        city_name="酒泉"
+        key="1608"
+        pid="16" />
+
+    <city_id
+        city_name="天水"
+        key="1609"
+        pid="16" />
+
+    <city_id
+        city_name="陇南"
+        key="1610"
+        pid="16" />
+
+    <city_id
+        city_name="临夏"
+        key="1611"
+        pid="16" />
+
+    <city_id
+        city_name="甘南"
+        key="1612"
+        pid="16" />
+
+    <city_id
+        city_name="白银"
+        key="1613"
+        pid="16" />
+
+    <city_id
+        city_name="嘉峪关"
+        key="1614"
+        pid="16" />
+
+    <city_id
+        city_name="银川"
+        key="1701"
+        pid="17" />
+
+    <city_id
+        city_name="石嘴山"
+        key="1702"
+        pid="17" />
+
+    <city_id
+        city_name="吴忠"
+        key="1703"
+        pid="17" />
+
+    <city_id
+        city_name="固原"
+        key="1704"
+        pid="17" />
+
+    <city_id
+        city_name="中卫"
+        key="1705"
+        pid="17" />
+
+    <city_id
+        city_name="郑州"
+        key="1801"
+        pid="18" />
+
+    <city_id
+        city_name="安阳"
+        key="1802"
+        pid="18" />
+
+    <city_id
+        city_name="新乡"
+        key="1803"
+        pid="18" />
+
+    <city_id
+        city_name="许昌"
+        key="1804"
+        pid="18" />
+
+    <city_id
+        city_name="平顶山"
+        key="1805"
+        pid="18" />
+
+    <city_id
+        city_name="信阳"
+        key="1806"
+        pid="18" />
+
+    <city_id
+        city_name="南阳"
+        key="1807"
+        pid="18" />
+
+    <city_id
+        city_name="开封"
+        key="1808"
+        pid="18" />
+
+    <city_id
+        city_name="洛阳"
+        key="1809"
+        pid="18" />
+
+    <city_id
+        city_name="商丘"
+        key="1810"
+        pid="18" />
+
+    <city_id
+        city_name="焦作"
+        key="1811"
+        pid="18" />
+
+    <city_id
+        city_name="鹤壁"
+        key="1812"
+        pid="18" />
+
+    <city_id
+        city_name="濮阳"
+        key="1813"
+        pid="18" />
+
+    <city_id
+        city_name="周口"
+        key="1814"
+        pid="18" />
+
+    <city_id
+        city_name="漯河"
+        key="1815"
+        pid="18" />
+
+    <city_id
+        city_name="驻马店"
+        key="1816"
+        pid="18" />
+
+    <city_id
+        city_name="三门峡"
+        key="1817"
+        pid="18" />
+
+    <city_id
+        city_name="济源"
+        key="1818"
+        pid="18" />
+
+    <city_id
+        city_name="南京"
+        key="1901"
+        pid="19" />
+
+    <city_id
+        city_name="无锡"
+        key="1902"
+        pid="19" />
+
+    <city_id
+        city_name="镇江"
+        key="1903"
+        pid="19" />
+
+    <city_id
+        city_name="苏州"
+        key="1904"
+        pid="19" />
+
+    <city_id
+        city_name="南通"
+        key="1905"
+        pid="19" />
+
+    <city_id
+        city_name="扬州"
+        key="1906"
+        pid="19" />
+
+    <city_id
+        city_name="盐城"
+        key="1907"
+        pid="19" />
+
+    <city_id
+        city_name="徐州"
+        key="1908"
+        pid="19" />
+
+    <city_id
+        city_name="淮安"
+        key="1909"
+        pid="19" />
+
+    <city_id
+        city_name="连云港"
+        key="1910"
+        pid="19" />
+
+    <city_id
+        city_name="常州"
+        key="1911"
+        pid="19" />
+
+    <city_id
+        city_name="泰州"
+        key="1912"
+        pid="19" />
+
+    <city_id
+        city_name="宿迁"
+        key="1913"
+        pid="19" />
+
+    <city_id
+        city_name="武汉"
+        key="2001"
+        pid="20" />
+
+    <city_id
+        city_name="襄阳"
+        key="2002"
+        pid="20" />
+
+    <city_id
+        city_name="鄂州"
+        key="2003"
+        pid="20" />
+
+    <city_id
+        city_name="孝感"
+        key="2004"
+        pid="20" />
+
+    <city_id
+        city_name="黄冈"
+        key="2005"
+        pid="20" />
+
+    <city_id
+        city_name="黄石"
+        key="2006"
+        pid="20" />
+
+    <city_id
+        city_name="咸宁"
+        key="2007"
+        pid="20" />
+
+    <city_id
+        city_name="荆州"
+        key="2008"
+        pid="20" />
+
+    <city_id
+        city_name="宜昌"
+        key="2009"
+        pid="20" />
+
+    <city_id
+        city_name="恩施"
+        key="2010"
+        pid="20" />
+
+    <city_id
+        city_name="十堰"
+        key="2011"
+        pid="20" />
+
+    <city_id
+        city_name="神农架"
+        key="2012"
+        pid="20" />
+
+    <city_id
+        city_name="随州"
+        key="2013"
+        pid="20" />
+
+    <city_id
+        city_name="荆门"
+        key="2014"
+        pid="20" />
+
+    <city_id
+        city_name="天门"
+        key="2015"
+        pid="20" />
+
+    <city_id
+        city_name="仙桃"
+        key="2016"
+        pid="20" />
+
+    <city_id
+        city_name="潜江"
+        key="2017"
+        pid="20" />
+
+    <city_id
+        city_name="杭州"
+        key="2101"
+        pid="21" />
+
+    <city_id
+        city_name="湖州"
+        key="2102"
+        pid="21" />
+
+    <city_id
+        city_name="嘉兴"
+        key="2103"
+        pid="21" />
+
+    <city_id
+        city_name="宁波"
+        key="2104"
+        pid="21" />
+
+    <city_id
+        city_name="绍兴"
+        key="2105"
+        pid="21" />
+
+    <city_id
+        city_name="台州"
+        key="2106"
+        pid="21" />
+
+    <city_id
+        city_name="温州"
+        key="2107"
+        pid="21" />
+
+    <city_id
+        city_name="丽水"
+        key="2108"
+        pid="21" />
+
+    <city_id
+        city_name="金华"
+        key="2109"
+        pid="21" />
+
+    <city_id
+        city_name="衢州"
+        key="2110"
+        pid="22" />
+
+    <city_id
+        city_name="舟山"
+        key="2111"
+        pid="22" />
+
+    <city_id
+        city_name="合肥"
+        key="2201"
+        pid="22" />
+
+    <city_id
+        city_name="蚌埠"
+        key="2202"
+        pid="22" />
+
+    <city_id
+        city_name="芜湖"
+        key="2203"
+        pid="22" />
+
+    <city_id
+        city_name="淮南"
+        key="2204"
+        pid="22" />
+
+    <city_id
+        city_name="马鞍山"
+        key="2205"
+        pid="22" />
+
+    <city_id
+        city_name="安庆"
+        key="2206"
+        pid="22" />
+
+    <city_id
+        city_name="宿州"
+        key="2207"
+        pid="22" />
+
+    <city_id
+        city_name="阜阳"
+        key="2208"
+        pid="22" />
+
+    <city_id
+        city_name="亳州"
+        key="2209"
+        pid="22" />
+
+    <city_id
+        city_name="黄山"
+        key="2210"
+        pid="22" />
+
+    <city_id
+        city_name="滁州"
+        key="2211"
+        pid="22" />
+
+    <city_id
+        city_name="淮北"
+        key="2212"
+        pid="22" />
+
+    <city_id
+        city_name="铜陵"
+        key="2213"
+        pid="22" />
+
+    <city_id
+        city_name="宣城"
+        key="2214"
+        pid="22" />
+
+    <city_id
+        city_name="六安"
+        key="2215"
+        pid="22" />
+
+    <city_id
+        city_name="巢湖"
+        key="2216"
+        pid="22" />
+
+    <city_id
+        city_name="池州"
+        key="2217"
+        pid="22" />
+
+    <city_id
+        city_name="福州"
+        key="2301"
+        pid="23" />
+
+    <city_id
+        city_name="厦门"
+        key="2302"
+        pid="23" />
+
+    <city_id
+        city_name="宁德"
+        key="2303"
+        pid="23" />
+
+    <city_id
+        city_name="莆田"
+        key="2304"
+        pid="23" />
+
+    <city_id
+        city_name="泉州"
+        key="2305"
+        pid="23" />
+
+    <city_id
+        city_name="漳州"
+        key="2306"
+        pid="23" />
+
+    <city_id
+        city_name="龙岩"
+        key="2307"
+        pid="23" />
+
+    <city_id
+        city_name="三明"
+        key="2308"
+        pid="23" />
+
+    <city_id
+        city_name="南平"
+        key="2309"
+        pid="23" />
+
+    <city_id
+        city_name="南昌"
+        key="2401"
+        pid="24" />
+
+    <city_id
+        city_name="九江"
+        key="2402"
+        pid="24" />
+
+    <city_id
+        city_name="上饶"
+        key="2403"
+        pid="24" />
+
+    <city_id
+        city_name="抚州"
+        key="2404"
+        pid="24" />
+
+    <city_id
+        city_name="宜春"
+        key="2405"
+        pid="24" />
+
+    <city_id
+        city_name="吉安"
+        key="2406"
+        pid="24" />
+
+    <city_id
+        city_name="赣州"
+        key="2407"
+        pid="24" />
+
+    <city_id
+        city_name="景德镇"
+        key="2408"
+        pid="24" />
+
+    <city_id
+        city_name="萍乡"
+        key="2409"
+        pid="24" />
+
+    <city_id
+        city_name="新余"
+        key="2410"
+        pid="24" />
+
+    <city_id
+        city_name="鹰潭"
+        key="2411"
+        pid="24" />
+
+    <city_id
+        city_name="长沙"
+        key="2501"
+        pid="25" />
+
+    <city_id
+        city_name="湘潭"
+        key="2502"
+        pid="25" />
+
+    <city_id
+        city_name="株洲"
+        key="2503"
+        pid="25" />
+
+    <city_id
+        city_name="衡阳"
+        key="2504"
+        pid="25" />
+
+    <city_id
+        city_name="郴州"
+        key="2505"
+        pid="25" />
+
+    <city_id
+        city_name="常德"
+        key="2506"
+        pid="25" />
+
+    <city_id
+        city_name="益阳"
+        key="2507"
+        pid="25" />
+
+    <city_id
+        city_name="娄底"
+        key="2508"
+        pid="25" />
+
+    <city_id
+        city_name="邵阳"
+        key="2509"
+        pid="25" />
+
+    <city_id
+        city_name="岳阳"
+        key="2510"
+        pid="25" />
+
+    <city_id
+        city_name="张家界"
+        key="2511"
+        pid="25" />
+
+    <city_id
+        city_name="怀化"
+        key="2512"
+        pid="25" />
+
+    <city_id
+        city_name="永州"
+        key="2513"
+        pid="25" />
+
+    <city_id
+        city_name="湘西"
+        key="2514"
+        pid="25" />
+
+    <city_id
+        city_name="贵阳"
+        key="2601"
+        pid="26" />
+
+    <city_id
+        city_name="遵义"
+        key="2602"
+        pid="26" />
+
+    <city_id
+        city_name="安顺"
+        key="2603"
+        pid="26" />
+
+    <city_id
+        city_name="黔南"
+        key="2604"
+        pid="26" />
+
+    <city_id
+        city_name="黔东南"
+        key="2605"
+        pid="26" />
+
+    <city_id
+        city_name="铜仁"
+        key="2606"
+        pid="26" />
+
+    <city_id
+        city_name="毕节"
+        key="2607"
+        pid="26" />
+
+    <city_id
+        city_name="六盘水"
+        key="2608"
+        pid="26" />
+
+    <city_id
+        city_name="黔西南"
+        key="2609"
+        pid="26" />
+
+    <city_id
+        city_name="成都"
+        key="2701"
+        pid="27" />
+
+    <city_id
+        city_name="攀枝花"
+        key="2702"
+        pid="27" />
+
+    <city_id
+        city_name="自贡"
+        key="2703"
+        pid="27" />
+
+    <city_id
+        city_name="绵阳"
+        key="2704"
+        pid="27" />
+
+    <city_id
+        city_name="南充"
+        key="2705"
+        pid="27" />
+
+    <city_id
+        city_name="达州"
+        key="2706"
+        pid="27" />
+
+    <city_id
+        city_name="遂宁"
+        key="2707"
+        pid="27" />
+
+    <city_id
+        city_name="广安"
+        key="2708"
+        pid="27" />
+
+    <city_id
+        city_name="巴中"
+        key="2709"
+        pid="27" />
+
+    <city_id
+        city_name="泸州"
+        key="2710"
+        pid="27" />
+
+    <city_id
+        city_name="宜宾"
+        key="2711"
+        pid="27" />
+
+    <city_id
+        city_name="内江"
+        key="2712"
+        pid="27" />
+
+    <city_id
+        city_name="资阳"
+        key="2713"
+        pid="27" />
+
+    <city_id
+        city_name="乐山"
+        key="2714"
+        pid="27" />
+
+    <city_id
+        city_name="眉山"
+        key="2715"
+        pid="27" />
+
+    <city_id
+        city_name="凉山"
+        key="2716"
+        pid="27" />
+
+    <city_id
+        city_name="雅安"
+        key="2717"
+        pid="27" />
+
+    <city_id
+        city_name="甘孜"
+        key="2718"
+        pid="27" />
+
+    <city_id
+        city_name="阿坝"
+        key="2719"
+        pid="27" />
+
+    <city_id
+        city_name="德阳"
+        key="2720"
+        pid="27" />
+
+    <city_id
+        city_name="广元"
+        key="2721"
+        pid="27" />
+
+    <city_id
+        city_name="广州"
+        key="2801"
+        pid="28" />
+
+    <city_id
+        city_name="韶关"
+        key="2802"
+        pid="28" />
+
+    <city_id
+        city_name="惠州"
+        key="2803"
+        pid="28" />
+
+    <city_id
+        city_name="梅州"
+        key="2804"
+        pid="28" />
+
+    <city_id
+        city_name="汕头"
+        key="2805"
+        pid="28" />
+
+    <city_id
+        city_name="深圳"
+        key="2806"
+        pid="28" />
+
+    <city_id
+        city_name="珠海"
+        key="2807"
+        pid="28" />
+
+    <city_id
+        city_name="佛山"
+        key="2808"
+        pid="28" />
+
+    <city_id
+        city_name="肇庆"
+        key="2809"
+        pid="28" />
+
+    <city_id
+        city_name="湛江"
+        key="2810"
+        pid="28" />
+
+    <city_id
+        city_name="江门"
+        key="2811"
+        pid="28" />
+
+    <city_id
+        city_name="河源"
+        key="2812"
+        pid="28" />
+
+    <city_id
+        city_name="清远"
+        key="2813"
+        pid="28" />
+
+    <city_id
+        city_name="云浮"
+        key="2814"
+        pid="28" />
+
+    <city_id
+        city_name="潮州"
+        key="2815"
+        pid="28" />
+
+    <city_id
+        city_name="东莞"
+        key="2816"
+        pid="28" />
+
+    <city_id
+        city_name="中山"
+        key="2817"
+        pid="28" />
+
+    <city_id
+        city_name="阳江"
+        key="2818"
+        pid="28" />
+
+    <city_id
+        city_name="揭阳"
+        key="2819"
+        pid="28" />
+
+    <city_id
+        city_name="茂名"
+        key="2820"
+        pid="28" />
+
+    <city_id
+        city_name="汕尾"
+        key="2821"
+        pid="28" />
+
+    <city_id
+        city_name="昆明"
+        key="2901"
+        pid="29" />
+
+    <city_id
+        city_name="大理"
+        key="2902"
+        pid="29" />
+
+    <city_id
+        city_name="红河"
+        key="2903"
+        pid="29" />
+
+    <city_id
+        city_name="曲靖"
+        key="2904"
+        pid="29" />
+
+    <city_id
+        city_name="保山"
+        key="2905"
+        pid="29" />
+
+    <city_id
+        city_name="文山"
+        key="2906"
+        pid="29" />
+
+    <city_id
+        city_name="玉溪"
+        key="2907"
+        pid="29" />
+
+    <city_id
+        city_name="楚雄"
+        key="2908"
+        pid="29" />
+
+    <city_id
+        city_name="普洱"
+        key="2909"
+        pid="29" />
+
+    <city_id
+        city_name="昭通"
+        key="2910"
+        pid="29" />
+
+    <city_id
+        city_name="临沧"
+        key="2911"
+        pid="29" />
+
+    <city_id
+        city_name="怒江"
+        key="2912"
+        pid="29" />
+
+    <city_id
+        city_name="迪庆"
+        key="2913"
+        pid="29" />
+
+    <city_id
+        city_name="丽江"
+        key="2914"
+        pid="29" />
+
+    <city_id
+        city_name="德宏"
+        key="2915"
+        pid="29" />
+
+    <city_id
+        city_name="西双版纳"
+        key="2916"
+        pid="29" />
+
+    <city_id
+        city_name="南宁"
+        key="3001"
+        pid="30" />
+
+    <city_id
+        city_name="崇左"
+        key="3002"
+        pid="30" />
+
+    <city_id
+        city_name="柳州"
+        key="3003"
+        pid="30" />
+
+    <city_id
+        city_name="来宾"
+        key="3004"
+        pid="30" />
+
+    <city_id
+        city_name="桂林"
+        key="3005"
+        pid="30" />
+
+    <city_id
+        city_name="梧州"
+        key="3006"
+        pid="30" />
+
+    <city_id
+        city_name="贺州"
+        key="3007"
+        pid="30" />
+
+    <city_id
+        city_name="贵港"
+        key="3008"
+        pid="30" />
+
+    <city_id
+        city_name="玉林"
+        key="3009"
+        pid="30" />
+
+    <city_id
+        city_name="百色"
+        key="3010"
+        pid="30" />
+
+    <city_id
+        city_name="钦州"
+        key="3011"
+        pid="30" />
+
+    <city_id
+        city_name="河池"
+        key="3012"
+        pid="30" />
+
+    <city_id
+        city_name="北海"
+        key="3013"
+        pid="30" />
+
+    <city_id
+        city_name="防城港"
+        key="3014"
+        pid="30" />
+
+    <city_id
+        city_name="海口"
+        key="3101"
+        pid="31" />
+
+    <city_id
+        city_name="三亚"
+        key="3102"
+        pid="31" />
+
+    <city_id
+        city_name="东方"
+        key="3103"
+        pid="31" />
+
+    <city_id
+        city_name="临高"
+        key="3104"
+        pid="31" />
+
+    <city_id
+        city_name="澄迈"
+        key="3105"
+        pid="31" />
+
+    <city_id
+        city_name="儋州"
+        key="3106"
+        pid="31" />
+
+    <city_id
+        city_name="昌江"
+        key="3107"
+        pid="31" />
+
+    <city_id
+        city_name="白沙"
+        key="3108"
+        pid="31" />
+
+    <city_id
+        city_name="琼中"
+        key="3109"
+        pid="31" />
+
+    <city_id
+        city_name="定安"
+        key="3110"
+        pid="31" />
+
+    <city_id
+        city_name="屯昌"
+        key="3111"
+        pid="31" />
+
+    <city_id
+        city_name="琼海"
+        key="3112"
+        pid="31" />
+
+    <city_id
+        city_name="文昌"
+        key="3113"
+        pid="31" />
+
+    <city_id
+        city_name="保亭"
+        key="3114"
+        pid="31" />
+
+    <city_id
+        city_name="万宁"
+        key="3115"
+        pid="31" />
+
+    <city_id
+        city_name="陵水"
+        key="3116"
+        pid="31" />
+
+    <city_id
+        city_name="西沙"
+        key="3117"
+        pid="31" />
+
+    <city_id
+        city_name="南沙岛"
+        key="3118"
+        pid="31" />
+
+    <city_id
+        city_name="乐东"
+        key="3119"
+        pid="31" />
+
+    <city_id
+        city_name="五指山"
+        key="3120"
+        pid="31" />
+
+    <city_id
+        city_name="香港"
+        key="3201"
+        pid="32" />
+
+    <city_id
+        city_name="澳门"
+        key="3301"
+        pid="33" />
+
+    <city_id
+        city_name="台北"
+        key="3401"
+        pid="34" />
+
+    <city_id
+        city_name="高雄"
+        key="3402"
+        pid="34" />
+
+    <city_id
+        city_name="台中"
+        key="3403"
+        pid="34" />
+
+    <city_id
+        city_name="美国"
+        key="3501"
+        pid="35" />
+
+    <city_id
+        city_name="英国"
+        key="3502"
+        pid="35" />
+
+    <city_id
+        city_name="加拿大"
+        key="3503"
+        pid="35" />
+
+    <city_id
+        city_name="澳大利亚"
+        key="3504"
+        pid="35" />
+
+    <city_id
+        city_name="法国"
+        key="3505"
+        pid="35" />
+
+    <city_id
+        city_name="新加坡"
+        key="3506"
+        pid="35" />
+
+    <city_id
+        city_name="新西兰"
+        key="3507"
+        pid="35" />
+
+    <city_id
+        city_name="德国"
+        key="3508"
+        pid="35" />
+
+    <city_id
+        city_name="韩国"
+        key="3509"
+        pid="35" />
+
+    <city_id
+        city_name="俄罗斯"
+        key="3510"
+        pid="35" />
+
+    <city_id
+        city_name="日本"
+        key="3511"
+        pid="35" />
+
+    <city_id
+        city_name="意大利"
+        key="3512"
+        pid="35" />
+
+    <city_id
+        city_name="爱尔兰"
+        key="3513"
+        pid="35" />
+
+    <city_id
+        city_name="荷兰"
+        key="3514"
+        pid="35" />
+
+    <city_id
+        city_name="马来西亚"
+        key="3515"
+        pid="35" />
+
+    <city_id
+        city_name="瑞士"
+        key="3516"
+        pid="35" />
+
+    <city_id
+        city_name="泰国"
+        key="3517"
+        pid="35" />
+
+    <city_id
+        city_name="乌克兰"
+        key="3518"
+        pid="35" />
+
+    <city_id
+        city_name="南非"
+        key="3519"
+        pid="35" />
+
+    <city_id
+        city_name="芬兰"
+        key="3520"
+        pid="35" />
+
+    <city_id
+        city_name="瑞典"
+        key="3521"
+        pid="35" />
+
+    <city_id
+        city_name="奥地利"
+        key="3522"
+        pid="35" />
+
+    <city_id
+        city_name="西班牙"
+        key="3523"
+        pid="35" />
+
+    <city_id
+        city_name="比利时"
+        key="3524"
+        pid="35" />
+
+    <city_id
+        city_name="挪威"
+        key="3525"
+        pid="35" />
+
+    <city_id
+        city_name="丹麦"
+        key="3526"
+        pid="35" />
+
+    <city_id
+        city_name="菲律宾"
+        key="3527"
+        pid="35" />
+
+    <city_id
+        city_name="波兰"
+        key="3528"
+        pid="35" />
+
+    <city_id
+        city_name="印度"
+        key="3529"
+        pid="35" />
+
+    <city_id
+        city_name="阿根廷"
+        key="3530"
+        pid="35" />
+
+    <city_id
+        city_name="巴西"
+        key="3531"
+        pid="35" />
+
+    <city_id
+        city_name="白俄罗斯"
+        key="3532"
+        pid="35" />
+
+    <city_id
+        city_name="哥伦比亚"
+        key="3533"
+        pid="35" />
+
+    <city_id
+        city_name="古巴"
+        key="3534"
+        pid="35" />
+
+    <city_id
+        city_name="埃及"
+        key="3535"
+        pid="35" />
+
+    <city_id
+        city_name="希腊"
+        key="3536"
+        pid="35" />
+
+    <city_id
+        city_name="匈牙利"
+        key="3537"
+        pid="35" />
+
+    <city_id
+        city_name="印度尼西亚"
+        key="3538"
+        pid="35" />
+
+    <city_id
+        city_name="伊朗"
+        key="3539"
+        pid="35" />
+
+    <city_id
+        city_name="蒙古"
+        key="3540"
+        pid="35" />
+
+    <city_id
+        city_name="墨西哥"
+        key="3541"
+        pid="35" />
+
+    <city_id
+        city_name="葡萄牙"
+        key="3542"
+        pid="35" />
+
+    <city_id
+        city_name="沙特阿拉伯"
+        key="3543"
+        pid="35" />
+
+    <city_id
+        city_name="土耳其"
+        key="3544"
+        pid="35" />
+
+    <city_id
+        city_name="其他"
+        key="3545"
+        pid="35" />
+
+   
+
+</data> <!-- </data_meimeng> -->

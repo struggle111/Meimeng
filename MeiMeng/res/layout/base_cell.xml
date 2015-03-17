@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/cell_left"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="昵称："
+        android:textColor="@color/gray_68"
+        android:textSize="15sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_right"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="130dip"
+        android:background="@null"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="dds"
+        android:textColor="@color/party_private_text"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_right"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="130dip"
+        android:background="@null"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:textColor="@color/party_private_text"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_indator"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="9dip"
+        android:src="@drawable/icon_arrow_item" >
+    </ImageView>
+
+</RelativeLayout>

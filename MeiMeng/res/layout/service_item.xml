@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dip"
+                android:gravity="left|center_vertical"
+                android:text="美盟基本介绍："
+                android:textColor="@color/blank"
+                android:textSize="17.0sp" />
+
+            <TextView
+                android:id="@+id/name_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/name"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@null"
+                android:gravity="left|center_vertical"
+                android:text="《美盟》手机客户端是一款高端的婚恋服务产品，我们致力于打造仅吸纳最优秀单身女性和高端男士的严肃高端婚恋服务平台。每一位入会会员都要通过人工审核，确保其身份的真实性，同时符合美盟入会条件，才能获得美盟的尊贵会籍身份。
+\r\n入会要求：\r\n
+女性会员：\r\n
+基础条件：18—35岁，160CM以上，单身，渴望婚姻，良好教育；\r\n
+必备条件：形象端庄、气质优雅、良好素养，须在线或面谈审核。\r\n
+男性会员：\r\n
+基础条件：20岁以上，单身，未婚或离异，渴望幸福婚姻；\r\n
+必备条件：个人资产500万以上，公众形象良好。\r\n"
+                android:textColor="@color/blank"
+                android:textSize="13.0sp"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/name_1"
+                android:layout_marginTop="5dip" >
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="left|center_vertical"
+                    android:text="美盟注册条款"
+                    android:textColor="@color/blank"
+                    android:textSize="17.0sp" />
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/name2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:gravity="left|center_vertical"
+                    android:text="《1、	服务条款的接受
+欢迎光临美盟手机客户端，美盟是高端婚恋服务提供商。使用美盟的服务之前代表您承诺遵守本服务条款。\r\n
+2、	服务说明\r\n
+（1）美盟通过互联网为用户提供网络服务，包括在线及无线的相关业务。\r\n
+（2）美盟保留不经事先通知因维修、升级或其他原因暂停本服务任何部分的权利。\r\n
+（3）美盟所提供的所有服务及以后将提供的服务都将受到本服务条款的约束。\r\n
+3、	用户的注册义务
+\r\n
+您注册使用《美盟》手机客户端产品，须按要求提交相关个人信息，并做承诺如下：\r\n
+（1）承诺在“美盟”产品中的言行符合严肃的婚恋主题，以婚姻为征婚目的，不行有悖于善风良俗和伦理道德的行为。\r\n
+（2）承诺登记信息（包括美盟会员访谈信息表和美盟产品录入资料）中提交的所有信息完整、真实、有效；随时更新登记资料，确保其有效性\r\n
+（3）承诺注册使用《美盟》产品时是单身状态，即没有配偶或固定的男/女朋友，本协议约定的服务期内，一旦结束单身状态，将立即通知贵公司。\r\n
+\u00a0\u00a0\u00a0\u00a0若您提供任何错误、不实或不完整的资料或者美盟有理由怀疑资料为错误、不实或不完整的，本公司有权立即封停您在《美盟》产品客户端的个人账号，拒绝您现在和未来使用本服务之全部或者任何部分，同时还可追究其他违约责任。
+4、	隐私保护\r\n
+尊重用户个人隐私是美盟的一项基本原则，您的个人资料的使用将受到中国有关隐私的法律之规范。\r\n
+5、	用户的账号、密码和安全性\r\n
+（1）您一旦注册后，我们将有专人对您进行身份审核，当您通过审核后，您将得到一个密码和账号。如果您未保管好自己的账号和密码而对您、美盟或者第三方造成的损害，您将负全部责任。另外，每个用户都要对其账户中的所有活动和言论负全责。\r\n
+（2）您可随时改变您的密码，但每位用户仅拥有一个美盟账户。\r\n
+（3）用户同意若发现任何非法使用用户账号或者安全漏洞的情况，应该立即通告美盟。\r\n
+6、	用户行为\r\n
+用户单独承担发布内容的责任。用户对服务的使用时根据所有适用于服务的地方法律、国家法律和国际法律标准的。用户承诺：\r\n
+（1）	发布信息或者利用美盟的服务时必须符合中国有关法规，不得在美盟的客户端或者利用美盟的服务制作、复制、发布、传播以下信息：\r\n
+（a）	反对宪法所确定的基本原则的；\r\n
+（b）	危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；\r\n
+（c）	损害国家荣誉和利益的；\r\n
+（d）	煽动民族仇恨、民族歧视，破坏民族团结的；\r\n
+（e）	破坏国家宗教政策，宣扬邪教和封建迷信的；\r\n
+（f）	散步谣言，扰乱社会秩序，破坏社会稳定的；\r\n
+（g）	散步淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；\r\n
+（h）	侮辱或者诽谤他人，侵害他人合法权益的；\r\n
+（i）	含有法律、行政法规禁止的其他内容的。\r\n
+（2）	在美盟的客户端上发布信息或者利用美盟的服务时还必须符合其他有关国家和地区的法律规定以及国际法的有关规定。\r\n
+（3）	不利用美盟的服务从事以下活动：\r\n
+（a）	未经允许，进入计算机信息网络或者使用计算机信息网络资源的；\r\n
+（b）	未经允许，对计算机信息网络功能进行删除、修改或者增加的；\r\n
+（c）	未经允许，对进入计算机信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加的；\r\n
+（d）	故意制作、传播计算机病毒等破坏性程序的；\r\n
+（e）	其他危害计算机信息网络安全的行为。\r\n
+（4）	不以任何方式干扰美盟的服务。\r\n
+（5）	遵守美盟的所有其他规定和程序。\r\n
+\u00a0\u00a0\u00a0\u00a0用户需对自己在使用美盟服务过程中的行为承担法律责任。用户理解，如果美盟发现其网站传输的信息明显属于上段第（1）条所列内容之一，依据中国法律，美盟有义务立即停止传输，保存有关记录，向国家有关机关报告，并且删除含有该内容的地址、目录或关闭服务器。若用户的行为不符合以上提到的服务条款，美盟将作出独立判断立即取消用户服务账号。\r\n
+7、	内容的所有权\r\n
+（1）在本服务条款中，“本服务公开使用区域”系指一般公众可以使用的区域。\r\n
+\u00a0\u00a0\u00a0（2）您同意已就您于本服务公开使用区域及本服务其他任何公开使用区域张贴之内容，或包括照片、图形或影音资料等内容，授予美盟全球性、免许可费及非独家的使用权，美盟可以为了展示、散布及推广张贴前述内容之特定服务目的，将前述内容复制、修改、改写、改编或出版，在您将前述内容放入本服务期间，使用权持续有效；若您将前述内容自本服务中删除，则使用权于删除时终止。\r\n
+\u00a0\u00a0（3）您同意已就您于本服务其他公开使用区域张贴的其他内容，授予美盟免许可费、永久有效、不可撤销、非独家及可完全再授权之权利在全球使用、复制、修改、改写、改编、发行、翻译、创造衍生性著作，或将前述内容（部分或全部）加以散布、展示，或放入利用任何现在已知和未来开发出之形式、媒体和科技之其他著作物当中。\r\n
+\u00a0\u00a0\u00a0（4）当您怀疑可能构成侵犯时，您可以向美盟指出。如果美盟上使用了没有得到您（您是相应内容的拥有者）的许可的内容，您可以联系我们并出示能够证明您的所有权的证明请求移除相应内容。
+8、	结束服务\r\n
+用户或美盟可随时根据实际情况中断服务。用户若反对任何服务条款的建议或对后来的服务修改有异议，或对美盟服务不满，用户只有以下的追索权：\r\n
+\u00a0\u00a0\u00a0（1）不再使用美盟服务。\r\n
+\u00a0\u00a0\u00a0（2）结束用户使用美盟服务的资格。\r\n
+\u00a0\u00a0\u00a0（3）通告美盟停止该用户的服务。\r\n
+\u00a0\u00a0\u00a0\u00a0结束用户服务后，用户使用美盟服务的权利马上中止。从那时起，美盟不再对用户承担任何义务。\r\n
+9、	免责声明\r\n
+（1）美盟手机客户端是免费注册软件，针对年满18周岁的未婚人员使用，使用该软件需要接入网络。\r\n
+（2）我们在保证会员资料真实方面做了严格的审核工作，但是不排除有个别人员利用该软件做违法的事情，并由此产生欺诈行为，美盟及其所属公司对此不负任何责任，请自行辨别对方的资料真实性，谨慎交友。\r\n
+\u00a0\u00a0\u00a0（3）用户需要对自己资料真实性负责，禁止利用该软件做违法活动，禁止上传淫秽图片，\u00a0\u00a0\u00a0\u00a0禁止发布政治、反动、色情、种族歧视等内容，一经发现会立即删除，严重者终身禁用账号并移交公安机关处理。\r\n
+\u00a0\u00a0\u00a0（4）美盟对直接、间接、偶然、特殊及继起的损害不负责任，这些损害来自：不正当使用产品服务，在网上购买商品或类似服务，在网上进行交易，使用本产品链接的其他网站或网页而引起的任何损害，非法使用服务或用户传送的信息有所变动，用户自发组织的所有相关活动。\r\n
+\u00a0\u00a0\u00a0（5）该软件需要使用您的位置功能，请选择开启或者关闭，部分功能需要位置功能支持，如位置提醒功能。我们只利用位置功能为你匹配适合的会员，并不记录和利用您的位置做任何用户允许范围外的事情。\r\n
+\u00a0\u00a0\u00a0（6）我们会对注册会员提交的所有资料进行严格的保密，并提供一切必要的安全保障措施，不会以任何目的和形式出售给第三方公司或者个人。但是不排除个别公司及个人抓取美盟会员公开资料，但是不会取得会员认证的手机和身份证号码等隐私资料，请放心注册认证。\r\n
+\u00a0\u00a0\u00a0（7）用户理解并接受：美盟不担保服务一定能满足用户的要求。\u00a0\r\n
+（8）成都市西杰实业投资有限公司对该软件有唯一的修改升级权限，并有权终止一部分版本的使用。请及时更新最新版本。\r\n
+10、	赔偿\r\n
+由于您通过本服务提供、张贴或传送之内容、您违反本服务条款、或您侵害他人任何权利因而衍生或导致任何第三人提出任何索赔或请求，包括合理的律师费，您同意赔偿美盟公司并使其免受损害。\r\n
+11、	禁止商业行为\r\n
+您同意不对本服务任何部分或本服务之使用或获得，进行复制、拷贝、出售、转售或用于任何其他商业目的。\r\n
+12、	服务的修改和终止\r\n
+\u00a0\u00a0\u00a0美盟将尽力提供最好的服务并在发生任何修改或者中断服务时及时通知用户，但是美盟保留在必要时修改服务条款而不需通知用户的权利。\r\n
+13、	法律\r\n
+用户和美盟一致同意有关服务条款以及使用美盟的服务产生的争议交由成都仲裁委员会解决。若有任何服务条款与法律相抵触，那这些条款将按尽可能接近的方法重新解析，而其他条款则保持对用户产生法律效力和影响。\r\n
+14、	其他\r\n
+\u00a0\u00a0（1）服务条款最终解释权和修改权归美盟所有。\r\n
+\u00a0\u00a0（2）美盟将视向用户所提供服务内容之特性，要求用户在注册美盟提供的有关服务时，遵守特定的条件和条款；如该等条件和条款与以上服务条款有任何不一致之处，则以该等条件和条款为准。\r\n
+
+"
+                    android:textColor="@color/blank"
+                    android:textSize="13.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

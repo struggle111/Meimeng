@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/k1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/k2"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/k1"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:id="@+id/k3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/act_btn_top"
+                android:layout_width="96dp"
+                android:layout_height="36dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/left_p"
+                android:text="高端派对"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                 />
+
+            <Button
+                android:id="@+id/act_btn_private"
+                android:layout_width="96dp"
+                android:layout_height="36dp"
+                android:layout_weight="1.0"
+                android:textSize="14sp"
+                android:background="@drawable/title_right"
+                android:text="私人邀请" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@null"
+        android:layout_below="@+id/k2">
+
+        <com.swater.meimeng.mutils.pullxlist.PullXListView
+            android:id="@+id/data_ls"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:dividerHeight="25dip"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="@color/transparent" >
+        </com.swater.meimeng.mutils.pullxlist.PullXListView>
+    </LinearLayout>
+
+</RelativeLayout>

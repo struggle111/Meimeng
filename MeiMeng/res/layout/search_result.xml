@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_bg" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:background="@null" >
+
+        <com.swater.meimeng.mutils.pullxlist.PullXListView
+            android:id="@+id/ls_search_res"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="10dip"
+            android:background="@null"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dip"
+            android:listSelector="@android:color/transparent" >
+        </com.swater.meimeng.mutils.pullxlist.PullXListView>
+    </LinearLayout>
+
+</RelativeLayout>

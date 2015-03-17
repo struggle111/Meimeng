@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cell_rly"
+                android:layout_width="fill_parent"
+                android:background="@color/white"
+                android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/voice_text"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:text="正在录音...."
+            android:textColor="@color/gray_68"
+            android:textSize="18sp">
+    </TextView>
+
+    <Button
+            android:id="@+id/record_over_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/voice_text"
+            android:background="@drawable/selector_btn_gold"
+            android:clickable="false"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="结 束 录 音"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/record_over_btn"
+            android:background="@null"
+            />
+
+</RelativeLayout>

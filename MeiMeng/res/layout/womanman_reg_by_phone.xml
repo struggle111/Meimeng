@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/lay1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" >
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/reg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="10dip"
+        android:background="@color/gray_item" >
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/tel"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tel" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tel"
+                android:gravity="left|center_vertical"
+                android:text="手机号："
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/input_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="输入您的手机号"
+                android:inputType="phone"
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl2"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/tp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/password" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tp"
+                android:gravity="left|center_vertical"
+                android:text="密　码："
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txt_input_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="输入密码"
+                android:inputType="textPassword"
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl3"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/tp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/name" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tp"
+                android:gravity="left|center_vertical"
+                android:text="姓　名："
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txt_input_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入姓名"
+                android:inputType="text"
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_reg_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl31"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/t_age"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/age" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/t_age"
+                android:gravity="left|center_vertical"
+                android:text="年　龄："
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/txt_reg_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt2"
+                android:background="@null"
+                android:clickable="false"
+                android:gravity="center_vertical|left"
+                android:hint="选择年龄"
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wh_lay_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lay_reg_age"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/t_region"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/city" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/t_region"
+                android:text="城　市："
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/txt_reg_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/txt1"
+                android:background="@null"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:hint="选择城市"
+                android:textColor="@color/blank"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="20dip"
+        android:background="@null"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/c1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:singleLine="false"
+            android:text="注册须知："
+            android:textColor="@color/reg_notice" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/c2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1"
+            android:gravity="left|center_vertical"
+            android:text="美盟仅吸纳中国最优秀单身女性和资产达到500万以上单身男士!提交申请后专业婚恋顾问会第一时间与您联络，通过审核即可成为美盟会员，享受优质婚恋服务，开启寻爱之旅！"
+            android:textColor="@color/reg_notice" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/c3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c2"
+            android:gravity="left|center_vertical"
+            android:text="通过审核即可成为美盟会员！"
+            android:textColor="@color/gray_38"
+            android:visibility="gone" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/c4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c3"
+            android:gravity="left|center_vertical"
+            android:text="享受优质婚恋服务，开启寻爱之旅！"
+            android:textColor="@color/gray_38"
+            android:visibility="gone" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

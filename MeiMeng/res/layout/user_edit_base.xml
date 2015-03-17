@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/top1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <EditText
+                android:id="@+id/edit_honey"
+                android:layout_width="fill_parent"
+                android:layout_height="48dip"
+                android:layout_marginLeft="130dip"
+                android:background="@null"
+                android:gravity="center_horizontal|center_vertical"
+                android:text=""
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_item" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/edit_honey"
+                android:layout_marginLeft="20dip"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="昵称："
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/edit_city_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top1"
+            android:background="@color/gray_item" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dip"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="所在城市："
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" >
+            </TextView>
+
+            <Button
+                android:id="@+id/edit_city_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="48dip"
+                android:layout_marginLeft="130dp"
+                android:background="@null"
+                android:clickable="false"
+                android:gravity="center_horizontal|center_vertical"
+                android:text=""
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/icon_arrow_item" >
+            </ImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ver_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_city_lay"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                android:text="以下资料填写后不可修改，如需修改请联系云红娘"
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" >
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_1_cell_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ver_lay"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="年龄"
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/base_age"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dip"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="6dip"
+                android:src="@drawable/icon_arrow_item"
+                android:visibility="gone" >
+            </ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_1_cell_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_1_cell_1"
+            android:background="@color/gray_item" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_marginLeft="20dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="身高"
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/base_heigt"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dip"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_1_cell_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_1_cell_2"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_marginLeft="20dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="婚姻状况"
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/base_marr"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dip"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_1_cell_4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_1_cell_3"
+            android:background="@color/gray_item" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_marginLeft="20dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="有无子女"
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/base_son"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dip"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/gray_81" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay_1_cell_5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_1_cell_4"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_marginLeft="20dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="学历"
+                android:textColor="@color/gray_38"
+                android:textSize="14sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/base_grad"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dip"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" >
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/upload_bg"
+            android:layout_width="240dip"
+            android:layout_height="240dip"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dip"
+            android:background="@null"
+            android:minHeight="240dip"
+            android:minWidth="240dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/add_pic" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/upload_bg"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="请上传一张生活照进行验证"
+            android:textColor="@color/gray_81"
+            android:textSize="14sp" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

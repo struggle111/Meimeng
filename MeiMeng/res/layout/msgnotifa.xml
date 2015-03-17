@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="3dp" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/meimeng"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        
+        android:layout_marginTop="3dp"
+        android:id="@+id/text"
+        android:text="你有一条新信息"
+        android:gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="13sp"
+        android:layout_height="fill_parent"
+        android:textColor="@color/white" />
+
+</LinearLayout>

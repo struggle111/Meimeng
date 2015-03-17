@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"      
+        android:visibility="visible" >
+
+        <ListView
+            android:id="@+id/user_ls"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+              android:scrollbars="none"
+              android:divider="@null"
+              android:dividerHeight="0dip"
+              android:listSelector="@color/transparent"
+              
+            >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dp" >
+
+    <LinearLayout
+        android:id="@+id/top1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="1dip"
+            android:src="@drawable/meimeng" />
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageView"
+            android:layout_toRightOf="@id/imageView"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|center_vertical"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/imageView"
+            android:layout_below="@id/imageView"
+            android:gravity="center"
+            android:text="0%"
+              android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/top1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/fileName"
+            android:layout_below="@id/fileName"
+            android:max="100"
+            android:progress="0" />
+    </LinearLayout>
+
+</RelativeLayout>

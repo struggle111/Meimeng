@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <RadioButton
+            android:id="@+id/cell_1"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/single_check_box_style"
+            android:button="@null"
+            android:clickable="false"
+            android:text="" >
+        </RadioButton>
+
+        <TextView
+            android:id="@+id/cell_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/cell_1"
+            android:gravity="center_vertical"
+            android:minLines="1"
+            android:text="数据绑定"
+            android:textColor="@color/gray_81"
+            android:textSize="14sp" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

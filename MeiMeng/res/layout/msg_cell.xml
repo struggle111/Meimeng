@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_white"
+    android:padding="10dp" >
+
+    <FrameLayout
+        android:id="@+id/lay_p"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/msg_header"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/matchmaker" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/isreadTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+        </ImageView>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/icon_arrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_arrow_item" />
+
+    <RelativeLayout
+        android:id="@+id/lay_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/icon_arrow"
+        android:layout_toRightOf="@id/lay_p"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:id="@+id/lay_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/msg_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minLines="1"
+                android:text="用户名"
+                android:textColor="@color/gray_38"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/msg_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2013-8-12"
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/msg_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lay_top"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:clickable="false"
+            android:maxLines="4"
+            android:text="23"
+            android:textColor="@color/gray_81"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

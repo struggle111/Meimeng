@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blank" >
+
+    <com.swater.meimeng.activity.startguide.MyScrollLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <FrameLayout
+            android:id="@+id/st_g_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" >
+
+            <!--
+                 <ImageView
+                android:id="@+id/id1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:background="@null"
+                android:src="@drawable/pic1" />
+            -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:id="@+id/id1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:src="@drawable/pic1" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/st_g_2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:id="@+id/id2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/pic2" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/st_g_3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:id="@+id/id3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/pic3" />
+            </RelativeLayout>
+
+            <!--
+                 <ImageView
+                android:id="@+id/id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/pic3" />
+            -->
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/st_g_4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/pic4" />
+            </RelativeLayout>
+
+            <!--
+                 <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/pic4" />
+            -->
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/st_g_5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" >
+
+            <!--
+                 <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/pic5" />
+            -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/pic5" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/st_g_6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null" >
+
+            <!--
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/pic6" />
+            -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/pic6" />
+            </RelativeLayout>
+        </FrameLayout>
+    </com.swater.meimeng.activity.startguide.MyScrollLayout>
+
+</RelativeLayout>

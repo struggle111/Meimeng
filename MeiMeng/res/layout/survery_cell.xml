@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_bg" >
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/ques_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="绑定数据"
+            android:textColor="@color/blank"
+            android:textSize="16sp" >
+        </TextView>
+
+        <ListView
+            android:id="@+id/ls_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ques_title"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:listSelector="@color/transparent" >
+        </ListView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@+id/ls_radio"
+            android:gravity="center"
+            android:text="点击进入下一项"
+            android:textColor="@color/red"
+            android:visibility="gone" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

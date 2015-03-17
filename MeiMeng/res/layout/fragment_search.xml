@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/common_title" />
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/la3"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/top"
+        android:background="@color/white"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/search_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" >
+
+            <Button
+                android:id="@+id/btn_sch_city"
+                android:layout_width="96dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/title_left"
+                android:text="@string/s_search_city"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_sch_id"
+                android:layout_width="96dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/middle_p"
+                android:text="@string/s_search_id"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_sch_nickname"
+                android:layout_width="96dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/title_right"
+                android:text="@string/s_search_name"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/sear_lay_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/la3"
+        android:layout_marginTop="30dp"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/edit_key"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_edit_gold"
+            android:hint="输入搜索ID"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColor="@color/blank"
+            android:textSize="14sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/edit_btn_seach"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selector_btn_gold"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="14sp" >
+        </Button>
+    </LinearLayout>
+    <!-- realtabcontent -->
+
+    <FrameLayout
+        android:id="@+id/list_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/sear_lay_edit"
+        android:layout_centerHorizontal="true" >
+
+        <com.swater.meimeng.mutils.pullxlist.PullXListView
+            android:id="@+id/ls_search_res"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="10dip"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/cell_selector" >
+        </com.swater.meimeng.mutils.pullxlist.PullXListView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/mask_img"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#b5555555"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/guide_menu"
+                android:visibility="visible" >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/guide_page_search"
+                android:visibility="visible" >
+            </ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

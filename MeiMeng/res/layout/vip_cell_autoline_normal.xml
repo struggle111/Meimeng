@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="390dp" >
+
+        <com.swater.meimeng.mutils.remoteview.RemoteImageView
+            android:id="@+id/cell_header"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/female_default"
+            android:visibility="visible" >
+        </com.swater.meimeng.mutils.remoteview.RemoteImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rla_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp" >
+
+        <RelativeLayout
+            android:id="@+id/lay2"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/cell_username"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="用户名"
+                android:textColor="@color/gray_81"
+                android:textSize="20sp" >
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/rg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/list_item_region" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/cell_user_cityand_province"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="四川成都"
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@id/rg1" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/list_item_age" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/cell_userage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:text="23岁"
+                    android:textColor="@color/gray_81"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rla2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lay2"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/cell_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/gray_81"
+                android:textSize="14sp" >
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

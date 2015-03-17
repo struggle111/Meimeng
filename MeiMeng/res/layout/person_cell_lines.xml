@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@null" >
+
+    <RelativeLayout
+        android:id="@+id/n1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gold"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/cell_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:minLines="1"
+            android:text="个性描述"
+            android:textColor="@color/white"
+            android:textSize="16sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_edit_cell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_edit" >
+        </Button>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lay9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n1"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <com.swater.meimeng.mutils.mygrid.MyListView
+            android:id="@+id/lines_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:listSelector="@color/transparent" >
+        </com.swater.meimeng.mutils.mygrid.MyListView>
+
+        <TextView
+            android:id="@+id/cell_right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="12dip"
+            android:clickable="false"
+            android:gravity="left|center_vertical"
+            android:maxLines="10"
+            android:minHeight="40dip"
+            android:minLines="3"
+            android:text="你啦啦啦啦啦拉了拉你啦啦啦啦啦拉了"
+            android:textColor="@color/gray_75"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/blank_cell_hiden"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_below="@+id/lay9"
+        android:background="@color/gold"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:gravity="center"
+            android:text="了解更多详情  请咨询私人婚恋顾问 "
+            android:textColor="@color/white"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_below="@+id/t1"
+            android:gravity="center"
+            android:text="400-8783-520  15520829590"
+            android:textColor="@color/white"
+            android:textSize="16sp" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell_rly"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/cell_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="血型"
+        android:textColor="@color/gray_81"
+        android:textSize="14sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/cell_right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/cell_left"
+        android:background="@null"
+        android:clickable="false"
+        android:gravity="right"
+        android:text="小乖乖"
+        android:textColor="@color/gray_81"
+        android:textSize="14sp" />
+
+</RelativeLayout>
